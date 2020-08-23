@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom-style: solid;
+    
+}
+i {
+    margin-right: 20px;
+}
+
+button{
+    margin-right: 20px;
+    background-color: #326891;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    cursor: pointer;
+}
